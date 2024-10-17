@@ -191,10 +191,15 @@ footer p {
 }
 
 .flags {
-  position: absolute; 
-  bottom: 30px; 
-  left: 25%; 
-  width: 50%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 130px;
+}
+
+.flags > img {
+    max-height: 2em;
 }
 
 .logo {
@@ -257,12 +262,8 @@ footer p {
       text-align: center;
   }
 
-  .flags {
-    position: absolute; 
-    bottom: 30px; 
-    left: 0px; 
-    width: 100%;
+  .flags > img {
+    max-height: 1.5em;
   }
-
 }
 
